@@ -20,9 +20,6 @@ const client = new tmi.Client({
             return 'oauth:' + token.data.access_token
         }
     },
-    connection: {
-        port: 80
-    },
     channels: []
 })
 client.connect()
