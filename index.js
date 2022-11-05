@@ -25,7 +25,7 @@ const client = new tmi.Client({
 client.connect()
 let BASE_URL = ''
 if (process.env.NODE_ENV === 'production') {
-    BASE_URL = 'https://videoclash.vercel.app'
+    BASE_URL = 'https://videoclash.app'
 } else {
     BASE_URL = 'http://127.0.0.1:5173'
 }
